@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "nmt.py", line 391, in <module>
+    main()
+  File "nmt.py", line 383, in main
+    train(args)
+  File "nmt.py", line 226, in train
+    vocab = pickle.load(open(args['--vocab'], 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'data/vocab.bin'
